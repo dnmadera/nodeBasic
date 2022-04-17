@@ -11,5 +11,8 @@ app.get('/user/4', function(req, res) {
 
 app.listen(3000, function() {
   console.log('Aplicación ejemplo, escuchando el puerto 3000!');
+ 
+   console.log('This example is different!');
   console.log('The result is displayed in the New Command Line Interface');
+
 });
